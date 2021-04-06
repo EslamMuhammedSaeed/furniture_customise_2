@@ -3,7 +3,7 @@
 <!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
 <html lang="en">
 <head>
-  <title>Verge3D Web Interactive</title>
+  <title>title</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -11,16 +11,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!-- Search Engines -->
-  <meta name="description" content="interactive furniture design and customizing web app">
+  <meta name="description" content="interactive furniture design and customizing web app.">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="title">
-  <meta name="twitter:description" content="interactive furniture design and customizing web app">
-  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta name="twitter:description" content="interactive furniture design and customizing web app.">
+  <!-- <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg"> -->
   <!-- Open Graph -->
   <meta property="og:title" content="title">
   <meta property="og:description" content="interactive furniture design and customizing web app.">
-  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <!-- <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg"> -->
   <meta property="og:type" content="website">
 
   <meta name="generator" content="Verge3D 3.6.1">
@@ -39,10 +39,36 @@
   <script src="table3.js"></script>
 
   <link rel="stylesheet" type="text/css" href="table3.css">
- 
+  <style>
+    .loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.disppear{
+  animation: vanish 4s forwards;
+}
+@keyframes vanish {
+  100%{
+    /* opacity: 0; */
+    visibility: hidden;
+  }
+}
+  </style>
 </head>
 
 <body class="bg-light" style="overflow: visible;">
+  <div class="loader">
+    <img src="load-gif.gif" alt="">
+  </div>
   <!-- <nav class="navbar navbar-expand-sm bg-white navbar-light shadow-sm">
     <a class="navbar-brand" href="#">Logo</a>
     <ul class="navbar-nav">
@@ -85,6 +111,7 @@
   <div class="row mt-5 shadow mx-5">
     <div class="text-center  col-sm-9 p-0" style="display: block;height: 450px; ">
       <div id="v3d-container" style="width: 100%;display: block;margin: auto;position: relative;">
+        
         <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
       </div>
     </div>
@@ -131,7 +158,15 @@
     
     
 </div>
- 
+<script>
+  var loader = document.querySelector(".loader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+  loader.classList.add("disppear");
+}
+</script>
 </body>
 
 </html>
