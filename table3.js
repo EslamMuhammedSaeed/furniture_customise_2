@@ -210,9 +210,7 @@ function prepareExternalInterface(app) {
 
 function runCode(app) {
     // add your code here, e.g. console.log('Hello, World!');
-    console.log('Hello, World!');
-    var loader = document.querySelector(".loader")
-    loader.classList.add("disppear");
+   
     
 
 }
