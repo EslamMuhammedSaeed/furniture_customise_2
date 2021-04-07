@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100" height="100" viewBox="0 0 100 100" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(0 0 0 0 0 0)" id="40ed3dbc-c1d1-4dd5-b3d7-0868a482eacc"  >
+</g>
+<g transform="matrix(1 0 0 1 50 50)" id="cf6b63ed-35a8-4bb3-af10-72b2fa442950"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-50" y="-50" rx="0" ry="0" width="100" height="100" />
+</g>
+<g transform="matrix(0.68 0 0 0.68 241.34 77.44)" style="" id="f64408f3-cddc-4469-bf14-5dc211f9aec4"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="105" font-style="normal" font-weight="100" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-177.85" y="32.98" >Heading</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 48 50)" style="" id="12d69985-974b-4f18-af24-7e3e019bba56"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="31" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-44.1" y="9.74" >LOGO</tspan></text>
+</g>
+</svg>
