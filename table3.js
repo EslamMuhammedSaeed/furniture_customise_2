@@ -203,12 +203,17 @@ function prepareExternalInterface(app) {
     // register functions in the app.ExternalInterface to call them from Puzzles, e.g:
     // app.ExternalInterface.myJSFunction = function() {
     //     console.log('Hello, World!');
+    // console.log('Hello, World!');
     // }
 
 }
 
 function runCode(app) {
     // add your code here, e.g. console.log('Hello, World!');
+    console.log('Hello, World!');
+    var loader = document.querySelector(".loader")
+    loader.classList.add("disppear");
+    
 
 }
 

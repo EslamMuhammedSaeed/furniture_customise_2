@@ -54,7 +54,7 @@
 }
 
 .disppear{
-  animation: vanish 12s forwards;
+  animation: vanish 3s forwards;
 }
 @keyframes vanish {
   100%{
@@ -66,7 +66,7 @@
 </head>
 
 <body class="bg-light" style="overflow: visible;">
-  <div class="loader">
+  <div id="loader" class="loader">
     <img src="load-gif.gif" alt="">
   </div>
   <!-- <nav class="navbar navbar-expand-sm bg-white navbar-light shadow-sm">
@@ -158,7 +158,7 @@
     
     
 </div>
-<script>
+<!-- <script>
   var loader = document.querySelector(".loader")
 
 window.addEventListener("load", vanish);
@@ -166,7 +166,7 @@ window.addEventListener("load", vanish);
 function vanish() {
   loader.classList.add("disppear");
 }
-</script>
+</script> -->
 </body>
 
 </html>
